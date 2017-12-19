@@ -43,5 +43,16 @@ namespace restapi.test
             Assert.Equal(1, results[0].ToObject<User>().id);
             Assert.Equal("User 1", results[0].ToObject<User>().name);
         }
+
+        [Fact]
+        public async void second_user()
+        {
+            var response = await client.GetAsync("/api/values");
+            response.EnsureSuccessStatusCode();
+
+            dynamic results = JArray.Parse(await response.Content.ReadAsStringAsync());
+            Assert.Equal(2, results[1].ToObject<User>().id);
+            Assert.Equal("User 2", results[1].ToObject<User>().name);
+        }
     }
 }

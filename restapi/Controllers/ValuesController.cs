@@ -17,7 +17,7 @@ namespace restapi.Controllers
         {
             return new User[] { 
                 new User(1, "User 1"),
-                new User(2, "User ")
+                new User(2, "User 2")
             };
         }
 
