@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "restapi", "restapi\restapi.csproj", "{BF5B20E5-8F72-4C94-917C-E888F063670A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rest_testing", "rest_testing\rest_testing.csproj", "{327AA322-BBED-4D2E-ACF6-E9701173970E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF5B20E5-8F72-4C94-917C-E888F063670A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF5B20E5-8F72-4C94-917C-E888F063670A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF5B20E5-8F72-4C94-917C-E888F063670A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF5B20E5-8F72-4C94-917C-E888F063670A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327AA322-BBED-4D2E-ACF6-E9701173970E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327AA322-BBED-4D2E-ACF6-E9701173970E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327AA322-BBED-4D2E-ACF6-E9701173970E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327AA322-BBED-4D2E-ACF6-E9701173970E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
