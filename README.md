@@ -1,4 +1,4 @@
-# try-rest-dotnet-core
+# Try to learning .Net Core with C#
 REST API with .Net Core
 
 ### Pipeline of process to develop
