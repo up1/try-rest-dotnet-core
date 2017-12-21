@@ -13,7 +13,6 @@ namespace restapi.test
 {
     public class UnitTest1
     {
-
         private readonly HttpClient client;
         private readonly TestServer server;
 

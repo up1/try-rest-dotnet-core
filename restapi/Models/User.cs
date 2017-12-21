@@ -6,6 +6,9 @@ namespace restapi.Models
         public int id { get; set; }
         public string name { get; set; }
 
+        public User() 
+        {}
+
         public User(int id, string name)
         {
             this.id = id;
